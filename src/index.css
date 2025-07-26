@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -9,5 +9,6 @@ body {
   margin: 0;
   padding: 0;
   /* background-color: #0C0C0C; */
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #ffffff, #bfd3fe);
 }
