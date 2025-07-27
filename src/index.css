@@ -12,3 +12,51 @@ body {
   /* background-color: #fff; */
   background: linear-gradient(to bottom, #ffffff, #bfd3fe);
 }
+
+@keyframes pulse1 {
+  0% {
+    height: 50%;
+  }
+  50% {
+    height: 30%;
+  }
+  100% {
+    height: 75%;
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    height: 30%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 60%;
+  }
+}
+
+@keyframes pulse3 {
+  0% {
+    height: 70%;
+  }
+  50% {
+    height: 60%;
+  }
+  100% {
+    height: 90%;
+  }
+}
+
+.animated1 {
+  animation: pulse1 4s infinite alternate;
+}
+
+.animated2 {
+  animation: pulse1 4s infinite alternate;
+}
+
+.animated3 {
+  animation: pulse3 4s infinite alternate;
+}
